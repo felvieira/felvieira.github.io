@@ -14,6 +14,6 @@ $('products').innerHTML=PRODUCTS.map(([s,n,d,u,t],i)=>tile(PL[i]+(i>2?' sq':''),
  +`<a class="tile oss sq" style="grid-column:span 2" href="https://github.com/felvieira/claude-skills-fv" target="_blank" rel="noopener"><div><p class="mono label">// open source</p><h3>claude-skills-fv</h3><p class="muted small">Skills para agentes de código ↗</p></div></a>`;
 const j=u=>fetch(u+'?v='+Date.now()).then(r=>r.json());
 const BL=['big','wide','wide','sq','sq','sq'];
-j('data/blog.json').then(ps=>{$('posts').innerHTML=ps.slice(0,6).map((p,i)=>tile(BL[i],p.url,p.cover||'',`<span class="date mono">${br(p.date)}</span><h3>${esc(p.title)}</h3>`)).join('')+`<a class="tile more" href="https://felvieira.github.io/blog/">Ver todos os posts ↗</a>`});
+j('data/blog.json').then(ps=>{$('posts').innerHTML=ps.slice(0,6).map((p,i)=>tile(BL[i],p.url,p.cover||'',`<span class="date mono">${br(p.date)}</span><h3>${esc(p.title)}</h3>`)).join('')});
 const VL=['big','wide','one','one','one'];
-j('data/youtube.json').then(vs=>{$('videos').innerHTML=vs.slice(0,5).map((v,i)=>tile(VL[i],v.url,v.thumb,`<span class="date mono">${br(v.published)}</span><h3>${esc(v.title)}</h3>`)).join('')});
+j('data/youtube.json').then(vs=>{$('videos').innerHTML=vs.slice(0,5).map((v,i)=>tile(VL[i]+' vid',v.url,v.thumb,`<span class="date mono">${br(v.published)}</span><h3>${esc(v.title)}</h3>`)).join('')});

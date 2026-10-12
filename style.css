@@ -36,3 +36,4 @@ footer{max-width:1200px;margin:0 auto;padding:24px 20px 36px;font-size:12px}
 .sec{margin:18px 0 -4px;font-size:22px}
 @media (max-width:900px){.hero,.links{grid-column:1/-1}.products,.posts,.videos{grid-template-columns:repeat(4,1fr)}.big{grid-column:span 4}.wide,.sq{grid-column:span 2}.one{grid-column:span 2}}
 @media (max-width:600px){.bento{grid-template-columns:1fr}.bento>*{grid-column:1/-1!important}.products,.posts,.videos{grid-template-columns:1fr 1fr;grid-auto-rows:140px}.big{grid-column:span 2}.wide,.sq,.one{grid-column:span 1}.hero{padding:30px 24px}}
+.vid img{object-position:center;transform:scale(1.34)}.vid:hover img{transform:scale(1.42)}.sec a{font-size:13px;margin-left:10px;font-family:'JetBrains Mono',monospace}
