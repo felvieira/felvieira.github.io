@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="25" x2="1098" y2="650" gradientUnits="userSpaceOnUse"><stop stop-color="#E4F2E9"/><stop offset="1" stop-color="#BBD9C6"/></linearGradient>
+    <linearGradient id="side" x1="90" y1="70" x2="312" y2="610" gradientUnits="userSpaceOnUse"><stop stop-color="#183B31"/><stop offset="1" stop-color="#102A23"/></linearGradient>
+    <filter id="shadow" x="160" y="75" width="1000" height="580" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="17"/></filter>
+  </defs>
+  <rect width="1200" height="680" rx="34" fill="url(#bg)"/>
+  <rect x="190" y="104" width="936" height="520" rx="28" fill="#355B46" opacity=".20" filter="url(#shadow)"/>
+  <rect x="90" y="70" width="1020" height="540" rx="26" fill="#FCFCF7"/>
+  <path d="M116 70h208v540H116a26 26 0 0 1-26-26V96a26 26 0 0 1 26-26Z" fill="url(#side)"/>
+  <circle cx="139" cy="111" r="17" fill="#D7F56B"/><path d="M131 111h16M139 103v16" stroke="#183B31" stroke-width="4" stroke-linecap="round"/>
+  <text x="166" y="117" fill="#F8F8EE" font-family="Arial,sans-serif" font-size="23" font-weight="700">myndo</text>
+  <text x="121" y="174" fill="#91AC9B" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">SEU ESPAÇO</text>
+  <rect x="111" y="191" width="170" height="44" rx="12" fill="#315742"/>
+  <circle cx="135" cy="213" r="7" fill="#D7F56B"/><text x="153" y="218" fill="#F8F8EE" font-family="Arial,sans-serif" font-size="15" font-weight="700">Minhas tarefas</text>
+  <text x="153" y="269" fill="#C3D2C8" font-family="Arial,sans-serif" font-size="15">Hoje</text>
+  <text x="153" y="315" fill="#C3D2C8" font-family="Arial,sans-serif" font-size="15">Planejamento</text>
+  <text x="153" y="361" fill="#C3D2C8" font-family="Arial,sans-serif" font-size="15">Concluídas</text>
+  <rect x="347" y="104" width="714" height="473" rx="21" fill="#F4F5EE"/>
+  <text x="383" y="152" fill="#65756B" font-family="Arial,sans-serif" font-size="14">TERÇA-FEIRA · 12 DE AGOSTO</text>
+  <text x="383" y="198" fill="#18221E" font-family="Arial,sans-serif" font-size="31" font-weight="700">Seu dia, no seu ritmo.</text>
+  <rect x="383" y="222" width="644" height="67" rx="13" fill="#E6EFE5"/>
+  <circle cx="410" cy="255" r="11" stroke="#538466" stroke-width="2"/><path d="m404 255 4 4 8-9" stroke="#538466" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="437" y="251" fill="#263D30" font-family="Arial,sans-serif" font-size="16" font-weight="700">Revisar o planejamento da semana</text><text x="437" y="273" fill="#718076" font-family="Arial,sans-serif" font-size="12">Pessoal · até 10:30</text>
+  <rect x="383" y="302" width="644" height="67" rx="13" fill="#FFF"/>
+  <circle cx="410" cy="335" r="11" stroke="#B9C6BC" stroke-width="2"/><text x="437" y="331" fill="#263D30" font-family="Arial,sans-serif" font-size="16" font-weight="700">Enviar a proposta do projeto</text><text x="437" y="353" fill="#718076" font-family="Arial,sans-serif" font-size="12">Trabalho · até 14:00</text>
+  <rect x="383" y="382" width="644" height="67" rx="13" fill="#FFF"/>
+  <circle cx="410" cy="415" r="11" stroke="#B9C6BC" stroke-width="2"/><text x="437" y="411" fill="#263D30" font-family="Arial,sans-serif" font-size="16" font-weight="700">Separar ideias para o próximo vídeo</text><text x="437" y="433" fill="#718076" font-family="Arial,sans-serif" font-size="12">Criativo · sem prazo</text>
+  <rect x="383" y="472" width="644" height="72" rx="15" fill="#DAF3A2"/>
+  <path d="M409 507c0-13 10-23 23-23s23 10 23 23-10 23-23 23-23-10-23-23Z" stroke="#46692C" stroke-width="3"/><path d="m425 507 6 6 12-15" stroke="#46692C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="475" y="503" fill="#263D30" font-family="Arial,sans-serif" font-size="15" font-weight="700">Tudo sincronizado</text><text x="475" y="524" fill="#526A52" font-family="Arial,sans-serif" font-size="12">Suas tarefas ficam disponíveis mesmo offline.</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="78" y1="30" x2="1115" y2="655" gradientUnits="userSpaceOnUse"><stop stop-color="#EAE8F8"/><stop offset="1" stop-color="#C8D8F4"/></linearGradient>
+    <linearGradient id="mic" x1="220" y1="172" x2="560" y2="524" gradientUnits="userSpaceOnUse"><stop stop-color="#9D81FF"/><stop offset="1" stop-color="#5B54D8"/></linearGradient>
+    <filter id="shadow" x="176" y="118" width="405" height="445" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="19"/></filter>
+  </defs>
+  <rect width="1200" height="680" rx="34" fill="url(#bg)"/>
+  <circle cx="193" cy="132" r="71" fill="#F6F1FF" opacity=".85"/><circle cx="1027" cy="524" r="117" fill="#D4F4E8" opacity=".8"/>
+  <rect x="215" y="139" width="306" height="416" rx="46" fill="#5149B9" opacity=".2" filter="url(#shadow)"/>
+  <rect x="202" y="126" width="306" height="416" rx="46" fill="#FCFCFF"/>
+  <rect x="226" y="151" width="258" height="365" rx="31" fill="#191A2D"/>
+  <rect x="315" y="164" width="80" height="8" rx="4" fill="#44455B"/>
+  <rect x="251" y="198" width="208" height="66" rx="18" fill="#292B43"/>
+  <text x="274" y="225" fill="#A7ABC4" font-family="Arial,sans-serif" font-size="12">OUVIDO</text><text x="274" y="248" fill="#F7F6FF" font-family="Arial,sans-serif" font-size="17" font-weight="700">vinte e sete mais quinze</text>
+  <rect x="251" y="284" width="208" height="174" rx="20" fill="#24263B"/>
+  <text x="355" y="319" fill="#B8B7D1" font-family="Arial,sans-serif" font-size="14" text-anchor="middle">27 + 15</text>
+  <text x="355" y="397" fill="#F4F2FF" font-family="Arial,sans-serif" font-size="58" font-weight="700" text-anchor="middle">42</text>
+  <circle cx="355" cy="476" r="22" fill="#8671F1"/><path d="M346 476h18M355 467v18" stroke="#FFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M601 232c-25 0-45 20-45 45v71c0 25 20 45 45 45s45-20 45-45v-71c0-25-20-45-45-45Z" fill="url(#mic)"/>
+  <path d="M527 324v24a74 74 0 0 0 148 0v-24" stroke="#6256CC" stroke-width="16" stroke-linecap="round"/><path d="M601 421v40M563 461h76" stroke="#6256CC" stroke-width="16" stroke-linecap="round"/>
+  <path d="M719 279c16 19 16 45 0 64M755 253c31 34 31 82 0 116M791 228c47 49 47 116 0 165" stroke="#39A98E" stroke-width="9" stroke-linecap="round"/>
+  <rect x="861" y="198" width="201" height="258" rx="30" fill="#FCFCFF" stroke="#B8C7E7" stroke-width="3"/>
+  <rect x="881" y="219" width="161" height="62" rx="15" fill="#E8E6FB"/><text x="961" y="247" fill="#707092" font-family="Arial,sans-serif" font-size="13" text-anchor="middle">RESULTADO</text><text x="961" y="269" fill="#39366F" font-family="Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle">42</text>
+  <g fill="#E7F3ED"><rect x="881" y="299" width="47" height="39" rx="10"/><rect x="938" y="299" width="47" height="39" rx="10"/><rect x="995" y="299" width="47" height="39" rx="10"/><rect x="881" y="348" width="47" height="39" rx="10"/><rect x="938" y="348" width="47" height="39" rx="10"/><rect x="995" y="348" width="47" height="39" rx="10"/><rect x="881" y="397" width="47" height="39" rx="10"/><rect x="938" y="397" width="47" height="39" rx="10"/><rect x="995" y="397" width="47" height="39" rx="10"/></g>
+  <text x="604" y="526" fill="#37345F" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle">Fale. Veja a conta. Continue.</text>
+</svg>
