@@ -14,7 +14,6 @@ $('booking-options').innerHTML=BOOKING_TYPES.map((booking,i)=>`<article class="b
 
 const themeToggle=$('theme-toggle');
 const themeMeta=document.querySelector('meta[name="theme-color"]');
-const systemTheme=window.matchMedia('(prefers-color-scheme: dark)');
 let savedTheme=null;
 try{const preference=localStorage.getItem('felvieira-theme');if(preference==='light'||preference==='dark')savedTheme=preference}catch{}
 const setTheme=(theme,persist=false)=>{
@@ -26,9 +25,8 @@ const setTheme=(theme,persist=false)=>{
  themeMeta?.setAttribute('content',dark?'#0b110e':'#f2f0e8');
  if(persist){savedTheme=dark?'dark':'light';try{localStorage.setItem('felvieira-theme',savedTheme)}catch{}}
 };
-setTheme(savedTheme||document.documentElement.dataset.theme||(systemTheme.matches?'dark':'light'));
+setTheme(savedTheme||document.documentElement.dataset.theme||'light');
 themeToggle.addEventListener('click',()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark',true));
-if(!savedTheme)systemTheme.addEventListener('change',event=>{if(!savedTheme)setTheme(event.matches?'dark':'light')});
 
 const PRODUCTS=[
  ['memra','Memra','memrabiblia.org','https://memrabiblia.org/','Leitura e estudo da Bíblia com contexto e IA.'],
