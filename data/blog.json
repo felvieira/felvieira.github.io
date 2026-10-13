@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mais código, mesmo software: o gargalo da revisão na era dos agentes de IA",
+    "date": "2026-10-12",
+    "url": "https://felvieira.github.io/blog/posts/2026-10-12-agentes-ia-gargalo-revisao-codigo.html",
+    "cover": "https://felvieira.github.io/blog/assets/images/2026-10-12-agentes-ia-gargalo-revisao-codigo-cover.png",
+    "excerpt": "Estudo de Harvard com 300 milhões de eventos mostra: agentes de IA aumentam commits e PRs, mas a revisão humana absorve o ganho. O que muda quando escrever código deixa de ser o limite."
+  },
+  {
     "title": "Skills vs MCP: quando usar cada um no seu fluxo com agentes de IA",
     "date": "2026-10-09",
     "url": "https://felvieira.github.io/blog/posts/2026-10-09-skills-vs-mcp-quando-usar-cada-um.html",
@@ -33,12 +40,5 @@
     "url": "https://felvieira.github.io/blog/posts/2026-10-01-o-custo-real-do-codigo-de-agentes-ia-2026.html",
     "cover": "https://felvieira.github.io/blog/assets/images/2026-09-30-o-custo-real-do-codigo-de-agentes-ia-2026-cover.png",
     "excerpt": "Gerar código com IA ficou rápido. Entender, revisar e manter o sistema continua exigindo contexto, testes e decisões bem registradas."
-  },
-  {
-    "title": "Revisar código virou o novo gargalo: como destravar com agentes de IA",
-    "date": "2026-09-28",
-    "url": "https://felvieira.github.io/blog/posts/2026-09-28-revisao-de-codigo-novo-gargalo-2026.html",
-    "cover": "https://felvieira.github.io/blog/assets/images/2026-09-28-revisao-de-codigo-novo-gargalo-2026-cover.png",
-    "excerpt": "Escrever já não trava ninguém — revisar, sustentar e confiar é que trava. Um guia prático para revisar código de IA sem afogar o time."
   }
 ]
