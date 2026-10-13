@@ -3,42 +3,42 @@
     "title": "Mais código, mesmo software: o gargalo da revisão na era dos agentes de IA",
     "date": "2026-10-12",
     "url": "https://felvieira.github.io/blog/posts/2026-10-12-agentes-ia-gargalo-revisao-codigo.html",
-    "cover": "https://felvieira.github.io/blog/assets/images/2026-10-12-agentes-ia-gargalo-revisao-codigo-cover.png",
+    "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-10-12-agentes-ia-gargalo-revisao-codigo-cover.webp",
     "excerpt": "Estudo de Harvard com 300 milhões de eventos mostra: agentes de IA aumentam commits e PRs, mas a revisão humana absorve o ganho. O que muda quando escrever código deixa de ser o limite."
   },
   {
     "title": "Skills vs MCP: quando usar cada um no seu fluxo com agentes de IA",
     "date": "2026-10-09",
     "url": "https://felvieira.github.io/blog/posts/2026-10-09-skills-vs-mcp-quando-usar-cada-um.html",
-    "cover": "https://felvieira.github.io/blog/assets/images/2026-10-09-skills-vs-mcp-quando-usar-cada-um-cover.png",
+    "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-10-09-skills-vs-mcp-quando-usar-cada-um-cover.webp",
     "excerpt": "MCP conecta seu agente ao mundo; Skills ensinam o agente a trabalhar do seu jeito. A diferença prática entre ferramentas e receitas — e quando cada abordagem faz sentido no seu stack."
   },
   {
     "title": "A especificação é o novo código: como guiar agentes de IA no frontend",
     "date": "2026-10-07",
     "url": "https://felvieira.github.io/blog/posts/2026-10-07-a-especificacao-e-o-novo-codigo-2026.html",
-    "cover": "https://felvieira.github.io/blog/assets/images/2026-10-07-a-especificacao-e-o-novo-codigo-2026-cover.png",
+    "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-10-07-a-especificacao-e-o-novo-codigo-2026-cover.webp",
     "excerpt": "Quando os agentes de IA escrevem o código, você escreve o mapa. Especificar antes de codificar é o novo superpoder do frontend."
   },
   {
     "title": "O contexto é o novo código: por que seus agentes de IA erram",
     "date": "2026-10-05",
     "url": "https://felvieira.github.io/blog/posts/2026-10-05-o-contexto-e-o-novo-codigo-2026.html",
-    "cover": "https://felvieira.github.io/blog/assets/images/2026-10-05-o-contexto-e-o-novo-codigo-2026-cover.png",
+    "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-10-05-o-contexto-e-o-novo-codigo-2026-cover.webp",
     "excerpt": "Trocar de modelo não resolve agente que erra. Contexto sim: a disciplina de dar à IA só o que importa, do jeito que ela entende."
   },
   {
     "title": "Coloquei meu rosto em 9 modelos de vídeo com IA e pedi a mesma frase em português",
     "date": "2026-10-01",
     "url": "https://felvieira.github.io/blog/posts/2026-10-01-video-ia-apresentador-9-modelos.html",
-    "cover": "https://felvieira.github.io/blog/assets/images/2026-10-01-video-ia-apresentador-cover.jpg",
+    "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-10-01-video-ia-apresentador-cover.webp",
     "excerpt": "Mesma foto, mesma frase em português e 5 segundos na vertical em 9 modelos de vídeo. US$ 9,95 no total, um modelo de US$ 0,50 perto de um de US$ 2,31 e quatro armadilhas de API."
   },
   {
     "title": "O custo real do código de agentes de IA: manter pesa mais que escrever",
     "date": "2026-10-01",
     "url": "https://felvieira.github.io/blog/posts/2026-10-01-o-custo-real-do-codigo-de-agentes-ia-2026.html",
-    "cover": "https://felvieira.github.io/blog/assets/images/2026-09-30-o-custo-real-do-codigo-de-agentes-ia-2026-cover.png",
+    "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-09-30-o-custo-real-do-codigo-de-agentes-ia-2026-cover.webp",
     "excerpt": "Gerar código com IA ficou rápido. Entender, revisar e manter o sistema continua exigindo contexto, testes e decisões bem registradas."
   }
 ]
