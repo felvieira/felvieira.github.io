@@ -29,14 +29,18 @@ setTheme(savedTheme||document.documentElement.dataset.theme||'light');
 themeToggle.addEventListener('click',()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark',true));
 
 const PRODUCTS=[
- ['memra','Memra','memrabiblia.org','https://memrabiblia.org/','Leitura e estudo da Bíblia com contexto e IA.'],
- ['cadeodinheiro','Cadê o Dinheiro','cadeodinheiro.online','https://www.cadeodinheiro.online/','Finanças pessoais e orçamento da casa com IA.'],
- ['visalab','VisaLab','visalab.com.br','https://visalab.com.br/','Visagismo e consultoria de imagem com IA.'],
- ['posterflix','Posterflix','posterflix.net','https://posterflix.net/','Sua foto vira pôster de filme e criativos com IA.'],
- ['mentalist','Mentalist AI','mentalistai.com.br','https://mentalistai.com.br/','Segundo cérebro com IA: pense melhor, sem organizar.']];
+ ['ginga.png','Ginga IDE','gingaide.com.br','https://gingaide.com.br/','IDE agêntica brasileira gratuita conectada ao Oh My Pi.'],
+ ['cadeodinheiro.webp','Cadê o Dinheiro','cadeodinheiro.online','https://cadeodinheiro.online/','Orçamento da casa com IA para acompanhar melhor os gastos.'],
+ ['visalab.webp','VisaLab','visalab.com.br','https://www.visalab.com.br/','Dossiê de visagismo feito com inteligência artificial.'],
+ ['memra.webp','Memra Bíblia','memrabiblia.org','https://memrabiblia.org/landing','Estudo bíblico com lente acadêmica e inteligência artificial.'],
+ ['posterflix.webp','PosterFlix','posterflix.net','https://posterflix.net/','Crie pôsteres com seus filmes e séries favoritos usando IA.'],
+ ['mentalist.webp','Mentalist AI','mentalistai.com.br','https://mentalistai.com.br/','Seu segundo cérebro autônomo com IA.'],
+ ['hygia.webp','Hygia','hygiapp.com.br','https://hygiapp.com.br/','Organize laudos, imagens e resultados de exames com contexto e origem visíveis.'],
+ ['thoth.png','Thoth AI','thothai.online','https://thothai.online/','Assistente desktop com módulos de IA para programação, transcrição e tarefas no computador.'],
+ ['somai.png','Somai · Lista','shop.felvieira.dev','https://shop.felvieira.dev/','Lista de compras compartilhada com a família, total ao vivo e ajuda de IA.']];
 const tile=(cls,href,img,inner)=>`<a class="tile media ${cls}" href="${esc(href)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(img)}" alt="" onerror="this.remove()"><div class="body">${inner}</div></a>`;
-const PL=['big','wide','wide','sq','sq'];
-$('products').innerHTML=PRODUCTS.map(([s,n,d,u,t],i)=>tile(PL[i]+(i>2?' sq':''),u,`img/products/${s}.webp`,`<h3>${esc(n)}</h3><p>${esc(t)}</p><span class="mono small">${d} ↗</span>`)).join('');
+const PL=['big','wide','wide','sq','sq','sq','sq','sq','sq'];
+$('products').innerHTML=PRODUCTS.map(([image,name,domain,url,description],i)=>tile(PL[i],url,`img/products/${image}`,`<h3>${esc(name)}</h3><p>${esc(description)}</p><span class="mono small">${esc(domain)} ↗</span>`)).join('');
 const OPEN_SOURCE_PROJECTS=[
  {name:'Dev Agent KIT',description:'Ecossistema para planejar, revisar, testar e entregar software com agentes de desenvolvimento.',meta:'Claude Code · Cursor · Gemini CLI · MCP',url:'https://github.com/felvieira/claude-skills-fv',action:'Ver repositório',badge:'REPOSITÓRIO',featured:true},
  {name:'Myndo PWA',description:'Template offline-first com sincronização em nuvem, autenticação e armazenamento local.',meta:'React · TypeScript · Supabase · Dexie',url:'https://github.com/felvieira/todo-list-offlinefirst',action:'Ver repositório',badge:'REPOSITÓRIO'},
