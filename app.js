@@ -38,16 +38,30 @@ const tile=(cls,href,img,inner)=>`<a class="tile media ${cls}" href="${esc(href)
 const PL=['big','wide','wide','sq','sq'];
 $('products').innerHTML=PRODUCTS.map(([s,n,d,u,t],i)=>tile(PL[i]+(i>2?' sq':''),u,`img/products/${s}.webp`,`<h3>${esc(n)}</h3><p>${esc(t)}</p><span class="mono small">${d} ↗</span>`)).join('');
 const OPEN_SOURCE_PROJECTS=[
- {name:'Dev Agent KIT',description:'Ecossistema para planejar, revisar, testar e entregar software com agentes de desenvolvimento.',tech:'Claude Code · Cursor · Gemini CLI · MCP',url:'https://github.com/felvieira/claude-skills-fv',action:'Ver repositório',featured:true},
- {name:'Myndo PWA',description:'Template offline-first com sincronização em nuvem, autenticação e armazenamento local.',tech:'React · TypeScript · Supabase · Dexie',url:'https://github.com/felvieira/todo-list-offlinefirst',action:'Ver repositório'},
- {name:'Clockify Automator',description:'Lançamento de horas em lote no Clockify para vários dias.',tech:'React · TypeScript · ShadCN',url:'https://github.com/felvieira/time-tracker-automator-bot',action:'Ver repositório'},
- {name:'Bot Kanbanize Node',description:'Bot do Telegram integrado ao Kanbanize para criar tarefas.',tech:'Node.js · Telegram API',url:'https://github.com/felvieira/bot-kanbanize-node',action:'Ver repositório'},
- {name:'SVG to React Component',description:'Converte arquivos SVG em componentes React e otimiza o resultado.',tech:'React · SVGO',url:'https://github.com/felvieira/svg-to-react-component',action:'Ver repositório'},
- {name:'Regressive Test JS',description:'Testes de regressão visual com comparação de pixels.',tech:'Node.js · Puppeteer · Pixelmatch',url:'https://github.com/felvieira/regressive-test-js-library',action:'Ver repositório'},
- {name:'Speech to Calc',description:'Calculadora por comandos de voz, sem frameworks.',tech:'JavaScript · Web Speech API',url:'https://speech-to-calc.netlify.app/',action:'Abrir demonstração',demo:true},
- {name:'Mais projetos no GitHub',description:'Explore o perfil completo, outros repositórios e contribuições.',tech:'github.com/felvieira',url:'https://github.com/felvieira',action:'Ver perfil',profile:true}
+ {name:'Dev Agent KIT',description:'Ecossistema para planejar, revisar, testar e entregar software com agentes de desenvolvimento.',meta:'Claude Code · Cursor · Gemini CLI · MCP',url:'https://github.com/felvieira/claude-skills-fv',action:'Ver repositório',badge:'REPOSITÓRIO',featured:true},
+ {name:'Myndo PWA',description:'Template offline-first com sincronização em nuvem, autenticação e armazenamento local.',meta:'React · TypeScript · Supabase · Dexie',url:'https://github.com/felvieira/todo-list-offlinefirst',action:'Ver repositório',badge:'REPOSITÓRIO'},
+ {name:'Clockify Automator',description:'Lançamento de horas em lote no Clockify para vários dias.',meta:'React · TypeScript · ShadCN',url:'https://github.com/felvieira/time-tracker-automator-bot',action:'Ver repositório',badge:'REPOSITÓRIO'},
+ {name:'Bot Kanbanize Node',description:'Bot do Telegram integrado ao Kanbanize para criar tarefas.',meta:'Node.js · Telegram API',url:'https://github.com/felvieira/bot-kanbanize-node',action:'Ver repositório',badge:'REPOSITÓRIO'},
+ {name:'SVG to React Component',description:'Converte arquivos SVG em componentes React e otimiza o resultado.',meta:'React · SVGO',url:'https://github.com/felvieira/svg-to-react-component',action:'Ver repositório',badge:'REPOSITÓRIO'},
+ {name:'Regressive Test JS',description:'Testes de regressão visual com comparação de pixels.',meta:'Node.js · Puppeteer · Pixelmatch',url:'https://github.com/felvieira/regressive-test-js-library',action:'Ver repositório',badge:'REPOSITÓRIO'},
+ {name:'Speech to Calc',description:'Calculadora por comandos de voz, sem frameworks.',meta:'JavaScript · Web Speech API',url:'https://speech-to-calc.netlify.app/',action:'Abrir demonstração',badge:'DEMO OPEN SOURCE'},
+ {name:'Mais projetos no GitHub',description:'Explore o perfil completo, outros repositórios e contribuições.',meta:'github.com/felvieira',url:'https://github.com/felvieira',action:'Ver perfil',badge:'PERFIL GITHUB',profile:true}
 ];
-$('opensource').innerHTML=OPEN_SOURCE_PROJECTS.map((project,i)=>`<a class="tile open-source-card${project.featured?' open-source-card--featured':''}${project.profile?' open-source-card--profile':''}" href="${esc(project.url)}" target="_blank" rel="noopener noreferrer"><span class="open-source-card__top"><span class="mono open-source-card__number">${String(i+1).padStart(2,'0')}</span><span class="mono open-source-card__kind">${project.profile?'PERFIL GITHUB':project.demo?'DEMO OPEN SOURCE':'REPOSITÓRIO'}</span></span><h3>${esc(project.name)}</h3><p>${esc(project.description)}</p><span class="mono open-source-card__tech">${esc(project.tech)}</span><span class="open-source-card__link">${esc(project.action)} <span aria-hidden="true">↗</span></span></a>`).join('');
+const FREE_APPS=[
+ {name:'Pinote',description:'Um post-it nativo para Windows: deixe suas ideias à vista e salve tudo localmente.',meta:'Windows · sem conta · local-first',url:'https://pinote.felvieira.dev/#download',action:'Baixar para Windows',badge:'APP GRATUITO'},
+ {name:'ShotForge',description:'Transforma prints de apps em screenshots, banners e mockups para Google Play e App Store.',meta:'Web · sem instalação · gratuito',url:'https://storeshots.felvieira.dev/',action:'Abrir ShotForge',badge:'APP GRATUITO'}
+];
+const FREE_EXTENSIONS=[
+ {name:'MIRROR',description:'Acompanhe tempo, visualizações e interações em redes sociais, com os dados mantidos no navegador.',meta:'Chrome · análise local · gratuito',url:'https://mirror.felvieira.com.br/',action:'Conhecer extensão',badge:'EXTENSÃO GRATUITA'},
+ {name:'TeamScript',description:'Extensão gratuita para navegador. Acesse a página do projeto para conhecer os detalhes.',meta:'Extensão de navegador · gratuita',url:'https://teamscript.felvieira.com.br/',action:'Conhecer extensão',badge:'EXTENSÃO GRATUITA'},
+ {name:'LinkVault',description:'Extensão gratuita para navegador. Acesse a página do projeto para conhecer os detalhes.',meta:'Extensão de navegador · gratuita',url:'https://linkvault.felvieira.com.br/',action:'Conhecer extensão',badge:'EXTENSÃO GRATUITA'}
+];
+const renderLinkCards=(containerId,projects)=>{
+ $(containerId).innerHTML=projects.map((project,i)=>`<a class="tile link-card${project.featured?' link-card--featured':''}${project.profile?' link-card--profile':''}" href="${esc(project.url)}" target="_blank" rel="noopener noreferrer"><span class="link-card__top"><span class="mono link-card__number">${String(i+1).padStart(2,'0')}</span><span class="mono link-card__kind">${esc(project.badge)}</span></span><h3>${esc(project.name)}</h3><p>${esc(project.description)}</p><span class="mono link-card__meta">${esc(project.meta)}</span><span class="link-card__link">${esc(project.action)} <span aria-hidden="true">↗</span></span></a>`).join('');
+};
+renderLinkCards('opensource',OPEN_SOURCE_PROJECTS);
+renderLinkCards('free-apps',FREE_APPS);
+renderLinkCards('free-extensions',FREE_EXTENSIONS);
 const j=u=>fetch(u+'?v='+Date.now()).then(r=>r.json());
 const BL=['big','wide','wide','sq','sq','sq'];
 j('data/blog.json').then(ps=>{$('posts').innerHTML=ps.slice(0,6).map((p,i)=>tile(BL[i],p.url,p.cover||'',`<span class="date mono">${br(p.date)}</span><h3>${esc(p.title)}</h3>`)).join('')});
