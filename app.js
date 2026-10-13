@@ -41,9 +41,9 @@ const PRODUCTS=[
  {image:'img/free-apps/pinote.webp',name:'Pinote',domain:'pinote.felvieira.dev',url:'https://pinote.felvieira.dev/#download',description:'Post-its nativos para Windows para manter suas ideias à vista.'},
  {image:'img/free-apps/shotforge.webp',name:'ShotForge',domain:'storeshots.felvieira.dev',url:'https://storeshots.felvieira.dev/',description:'Crie screenshots, banners e mockups para as lojas de aplicativos.'},
  {image:'img/products/timemachine.svg',name:'Máquina do Tempo',domain:'timemachine.felvieira.com.br',url:'https://timemachine.felvieira.com.br/',description:'Uma viagem interativa por três épocas da web: MS-DOS, Windows 95 e Windows XP com MSN.'}];
-const tile=(cls,href,img,inner)=>`<a class="tile media ${cls}" href="${esc(href)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(img)}" alt="" onerror="this.remove()"><div class="body">${inner}</div></a>`;
+const tile=(cls,href,img,title,details)=>`<a class="tile media ${cls}" href="${esc(href)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(img)}" alt="" onerror="this.remove()"><div class="body"><div class="body__details">${details}</div><div class="body__title">${title}</div></div></a>`;
 const PL=['big','wide','wide','sq','sq','sq','sq','sq','sq','sq','sq','sq'];
-$('products').innerHTML=PRODUCTS.map(({image,name,domain,url,description},i)=>tile(PL[i],url,image,`<h3>${esc(name)}</h3><p>${esc(description)}</p><span class="mono small">${esc(domain)} ↗</span>`)).join('');
+$('products').innerHTML=PRODUCTS.map(({image,name,domain,url,description},i)=>tile(PL[i],url,image,`<h3>${esc(name)}</h3>`,`<p>${esc(description)}</p><span class="mono small">${esc(domain)} ↗</span>`)).join('');
 const OPEN_SOURCE_PROJECTS=[
  {name:'Dev Agent KIT',description:'Ecossistema para planejar, revisar, testar e entregar software com agentes de desenvolvimento.',meta:'Claude Code · Cursor · Gemini CLI · MCP',image:'img/open-source/dev-agent-kit.webp',imageAlt:'Diagrama do Dev Team Kit conectando especialistas de IA e engenharia',url:'https://github.com/felvieira/claude-skills-fv',action:'Ver repositório',badge:'REPOSITÓRIO',featured:true},
  {name:'Myndo PWA',description:'Template offline-first com sincronização em nuvem, autenticação e armazenamento local.',meta:'React · TypeScript · Supabase · Dexie',image:'img/open-source/myndo.svg',imageAlt:'Ilustração da interface de tarefas do Myndo PWA',url:'https://github.com/felvieira/todo-list-offlinefirst',action:'Ver repositório',badge:'REPOSITÓRIO'},
@@ -65,13 +65,13 @@ const FREE_EXTENSIONS=[
  {name:'LinkVault',description:'Salve links, contatos e textos úteis e recupere tudo pela busca. Seus itens ficam no navegador, prontos para copiar quando precisar.',meta:'Chrome · dados no navegador · grátis',image:'img/free-extensions/linkvault.webp',imageAlt:'Demonstração do LinkVault no Chrome ao buscar um item salvo',url:'https://linkvault.felvieira.com.br/',action:'Conhecer extensão',badge:'EXTENSÃO GRATUITA'}
 ];
 const renderLinkCards=(containerId,projects)=>{
- $(containerId).innerHTML=projects.map((project,i)=>`<a class="tile link-card${project.featured?' link-card--featured':''}${project.profile?' link-card--profile':''}" href="${esc(project.url)}" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="${esc(project.image)}" alt="${esc(project.imageAlt)}" onerror="this.remove()"><div class="link-card__body"><span class="link-card__top"><span class="mono link-card__number">${String(i+1).padStart(2,'0')}</span><span class="mono link-card__kind">${esc(project.badge)}</span></span><h3>${esc(project.name)}</h3><p>${esc(project.description)}</p><span class="mono link-card__meta">${esc(project.meta)}</span><span class="link-card__link">${esc(project.action)} <span aria-hidden="true">↗</span></span></div></a>`).join('');
+ $(containerId).innerHTML=projects.map((project,i)=>`<a class="tile link-card${project.featured?' link-card--featured':''}${project.profile?' link-card--profile':''}" href="${esc(project.url)}" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="${esc(project.image)}" alt="${esc(project.imageAlt)}" onerror="this.remove()"><div class="link-card__body"><div class="link-card__details"><span class="link-card__top"><span class="mono link-card__number">${String(i+1).padStart(2,'0')}</span><span class="mono link-card__kind">${esc(project.badge)}</span></span><p>${esc(project.description)}</p><span class="mono link-card__meta">${esc(project.meta)}</span><span class="link-card__link">${esc(project.action)} <span aria-hidden="true">↗</span></span></div><h3>${esc(project.name)}</h3></div></a>`).join('');
 };
 renderLinkCards('opensource',OPEN_SOURCE_PROJECTS);
 renderLinkCards('free-apps',FREE_APPS);
 renderLinkCards('free-extensions',FREE_EXTENSIONS);
 const j=u=>fetch(u+'?v='+Date.now()).then(r=>r.json());
 const BL=['big','wide','wide','sq','sq','sq'];
-j('data/blog.json').then(ps=>{$('posts').innerHTML=ps.slice(0,6).map((p,i)=>tile(BL[i],p.url,p.cover||'',`<span class="date mono">${br(p.date)}</span><h3>${esc(p.title)}</h3>`)).join('')});
+j('data/blog.json').then(ps=>{$('posts').innerHTML=ps.slice(0,6).map((p,i)=>tile(BL[i],p.url,p.cover||'',`<h3>${esc(p.title)}</h3>`,`<span class="date mono">${br(p.date)}</span>`)).join('')});
 const VL=['big','wide','one','one','one'];
-j('data/youtube.json').then(vs=>{$('videos').innerHTML=vs.slice(0,5).map((v,i)=>tile(VL[i]+' vid',v.url,v.thumb,`<span class="date mono">${br(v.published)}</span><h3>${esc(v.title)}</h3>`)).join('')});
+j('data/youtube.json').then(vs=>{$('videos').innerHTML=vs.slice(0,5).map((v,i)=>tile(VL[i]+' vid',v.url,v.thumb,`<h3>${esc(v.title)}</h3>`,`<span class="date mono">${br(v.published)}</span>`)).join('')});
