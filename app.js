@@ -48,6 +48,7 @@ const OPEN_SOURCE_PROJECTS=[
  {name:'Mais projetos no GitHub',description:'Explore o perfil completo, outros repositórios e contribuições.',meta:'github.com/felvieira',url:'https://github.com/felvieira',action:'Ver perfil',badge:'PERFIL GITHUB',profile:true}
 ];
 const FREE_APPS=[
+ {name:'NodeProcessor',description:'Organize processos de Node, Python, Docker e agentes de IA por projeto, com portas, comandos e uso de memória à vista.',meta:'Windows · código aberto · v0.2.0',url:'https://nodeprocessor.felvieira.com.br/#download',action:'Baixar para Windows',badge:'APP GRATUITO'},
  {name:'Pinote',description:'Um post-it nativo para Windows: deixe suas ideias à vista e salve tudo localmente.',meta:'Windows · sem conta · local-first',url:'https://pinote.felvieira.dev/#download',action:'Baixar para Windows',badge:'APP GRATUITO'},
  {name:'ShotForge',description:'Transforma prints de apps em screenshots, banners e mockups para Google Play e App Store.',meta:'Web · sem instalação · gratuito',url:'https://storeshots.felvieira.dev/',action:'Abrir ShotForge',badge:'APP GRATUITO'}
 ];
