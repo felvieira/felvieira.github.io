@@ -199,6 +199,25 @@ h1 {
 .links nav a i { color: var(--muted); font-size: 13px; font-style: normal; }
 .links nav a:hover { transform: translateY(-2px); border-color: var(--accent-strong); background: var(--card); }
 
+.sales-callout {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 24px;
+  padding: 25px 30px;
+  border-color: var(--forest);
+  background:
+    radial-gradient(ellipse at 92% 15%, var(--hero-glow), transparent 34%),
+    linear-gradient(115deg, var(--hero-start), var(--hero-end));
+  color: var(--hero-text);
+}
+.sales-callout .label { margin-bottom: 7px; color: var(--hero-link); }
+.sales-callout h2 { max-width: 740px; margin: 0; font-size: clamp(23px, 3vw, 31px); line-height: 1.18; letter-spacing: -.045em; }
+.sales-callout .sales-copy > p:last-child { max-width: 720px; margin: 9px 0 0; color: var(--hero-muted); font-size: 14px; }
+.sales-cta { gap: 10px; white-space: nowrap; border-color: var(--lime); background: var(--lime); color: #18221e; }
+.sales-cta:hover { border-color: var(--hero-link); background: var(--hero-link); color: #18221e; }
+
 .cal {
   grid-column: 1 / -1;
   padding: 28px 30px 30px;
@@ -369,6 +388,9 @@ footer { width: min(100% - 40px, 1240px); margin: 0 auto; padding: 22px 0 38px; 
   .links { padding: 19px; }
   .links nav { gap: 7px; }
   .links nav a { padding: 10px; font-size: 12px; }
+  .sales-callout { grid-template-columns: 1fr; gap: 17px; padding: 22px 19px; }
+  .sales-callout .sales-copy > p:last-child { font-size: 13px; }
+  .sales-cta { width: 100%; white-space: normal; }
   .cal { padding: 22px 19px; }
   .cal .btn { width: 100%; }
   .booking-grid { grid-template-columns: 1fr; gap: 9px; }
