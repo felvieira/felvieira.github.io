@@ -36,8 +36,18 @@ const PRODUCTS=[
  ['mentalist','Mentalist AI','mentalistai.com.br','https://mentalistai.com.br/','Segundo cérebro com IA: pense melhor, sem organizar.']];
 const tile=(cls,href,img,inner)=>`<a class="tile media ${cls}" href="${esc(href)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(img)}" alt="" onerror="this.remove()"><div class="body">${inner}</div></a>`;
 const PL=['big','wide','wide','sq','sq'];
-$('products').innerHTML=PRODUCTS.map(([s,n,d,u,t],i)=>tile(PL[i]+(i>2?' sq':''),u,`img/products/${s}.webp`,`<h3>${esc(n)}</h3><p>${esc(t)}</p><span class="mono small">${d} ↗</span>`)).join('')
- +`<a class="tile oss sq" style="grid-column:span 2" href="https://github.com/felvieira/claude-skills-fv" target="_blank" rel="noopener"><div><p class="mono label">// open source</p><h3>claude-skills-fv</h3><p class="muted small">Skills para agentes de código ↗</p></div></a>`;
+$('products').innerHTML=PRODUCTS.map(([s,n,d,u,t],i)=>tile(PL[i]+(i>2?' sq':''),u,`img/products/${s}.webp`,`<h3>${esc(n)}</h3><p>${esc(t)}</p><span class="mono small">${d} ↗</span>`)).join('');
+const OPEN_SOURCE_PROJECTS=[
+ {name:'Dev Agent KIT',description:'Ecossistema para planejar, revisar, testar e entregar software com agentes de desenvolvimento.',tech:'Claude Code · Cursor · Gemini CLI · MCP',url:'https://github.com/felvieira/claude-skills-fv',action:'Ver repositório',featured:true},
+ {name:'Myndo PWA',description:'Template offline-first com sincronização em nuvem, autenticação e armazenamento local.',tech:'React · TypeScript · Supabase · Dexie',url:'https://github.com/felvieira/todo-list-offlinefirst',action:'Ver repositório'},
+ {name:'Clockify Automator',description:'Lançamento de horas em lote no Clockify para vários dias.',tech:'React · TypeScript · ShadCN',url:'https://github.com/felvieira/time-tracker-automator-bot',action:'Ver repositório'},
+ {name:'Bot Kanbanize Node',description:'Bot do Telegram integrado ao Kanbanize para criar tarefas.',tech:'Node.js · Telegram API',url:'https://github.com/felvieira/bot-kanbanize-node',action:'Ver repositório'},
+ {name:'SVG to React Component',description:'Converte arquivos SVG em componentes React e otimiza o resultado.',tech:'React · SVGO',url:'https://github.com/felvieira/svg-to-react-component',action:'Ver repositório'},
+ {name:'Regressive Test JS',description:'Testes de regressão visual com comparação de pixels.',tech:'Node.js · Puppeteer · Pixelmatch',url:'https://github.com/felvieira/regressive-test-js-library',action:'Ver repositório'},
+ {name:'Speech to Calc',description:'Calculadora por comandos de voz, sem frameworks.',tech:'JavaScript · Web Speech API',url:'https://speech-to-calc.netlify.app/',action:'Abrir demonstração',demo:true},
+ {name:'Mais projetos no GitHub',description:'Explore o perfil completo, outros repositórios e contribuições.',tech:'github.com/felvieira',url:'https://github.com/felvieira',action:'Ver perfil',profile:true}
+];
+$('opensource').innerHTML=OPEN_SOURCE_PROJECTS.map((project,i)=>`<a class="tile open-source-card${project.featured?' open-source-card--featured':''}${project.profile?' open-source-card--profile':''}" href="${esc(project.url)}" target="_blank" rel="noopener noreferrer"><span class="open-source-card__top"><span class="mono open-source-card__number">${String(i+1).padStart(2,'0')}</span><span class="mono open-source-card__kind">${project.profile?'PERFIL GITHUB':project.demo?'DEMO OPEN SOURCE':'REPOSITÓRIO'}</span></span><h3>${esc(project.name)}</h3><p>${esc(project.description)}</p><span class="mono open-source-card__tech">${esc(project.tech)}</span><span class="open-source-card__link">${esc(project.action)} <span aria-hidden="true">↗</span></span></a>`).join('');
 const j=u=>fetch(u+'?v='+Date.now()).then(r=>r.json());
 const BL=['big','wide','wide','sq','sq','sq'];
 j('data/blog.json').then(ps=>{$('posts').innerHTML=ps.slice(0,6).map((p,i)=>tile(BL[i],p.url,p.cover||'',`<span class="date mono">${br(p.date)}</span><h3>${esc(p.title)}</h3>`)).join('')});
