@@ -2,6 +2,34 @@ const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 const br=d=>d?d.slice(0,10).split('-').reverse().join('/'):'';
 const $=id=>document.getElementById(id);
 $('y').textContent=new Date().getFullYear();
+const BOOKING_TYPES=[
+ {title:'Orçamento de projeto',description:'Conversa inicial para entender o escopo do seu app, landing page ou aplicativo mobile.',duration:'30 minutos',url:'https://tidycal.com/felvieiradev/30-minute-proposal-36vg48j'},
+ {title:'App do zero ao deploy',description:'Planeje a construção de um aplicativo completo, com backend integrado e pronto para lançar.',duration:'1 hora',price:'R$ 100,00',url:'https://tidycal.com/felvieiradev/60-minute-proposal'},
+ {title:'Pacote com 4 consultorias',description:'Quatro sessões de acompanhamento para aprofundar seus conhecimentos e avançar no projeto.',duration:'4 sessões de 60 minutos',price:'R$ 200,00',url:'https://tidycal.com/felvieiradev/240-minute-meeting'},
+ {title:'Consultoria de desenvolvimento',description:'Tire dúvidas de design, frontend, low-code/no-code e ferramentas como Bolt, V0 e Cursor.',duration:'60 minutos',price:'R$ 250,00',url:'https://tidycal.com/felvieiradev/60-minute-meeting'},
+ {title:'Treinamento para equipes',description:'Capacitação em ferramentas de automação, vibe coding e DevOps para sua equipe.',duration:'1 hora',price:'R$ 13.000,00',url:'https://tidycal.com/felvieiradev/pacote-training-groups'},
+ {title:'Consultoria especializada em IA',description:'Explore aplicações práticas de inteligência artificial para tirar suas ideias do papel.',duration:'60 minutos',price:'R$ 300,00',url:'https://tidycal.com/felvieiradev/60-minute-meeting-ai'}
+];
+$('booking-options').innerHTML=BOOKING_TYPES.map((booking,i)=>`<article class="booking-card"><span class="mono booking-index">${String(i+1).padStart(2,'0')}</span><h3>${esc(booking.title)}</h3><p>${esc(booking.description)}</p><div class="booking-meta"><span>${esc(booking.duration)}</span>${booking.price?`<span>${esc(booking.price)}</span>`:''}</div><a class="btn booking-link" href="${esc(booking.url)}" target="_blank" rel="noopener noreferrer">Ver horários <span aria-hidden="true">↗</span></a></article>`).join('');
+
+const themeToggle=$('theme-toggle');
+const themeMeta=document.querySelector('meta[name="theme-color"]');
+const systemTheme=window.matchMedia('(prefers-color-scheme: dark)');
+let savedTheme=null;
+try{const preference=localStorage.getItem('felvieira-theme');if(preference==='light'||preference==='dark')savedTheme=preference}catch{}
+const setTheme=(theme,persist=false)=>{
+ const dark=theme==='dark';
+ document.documentElement.dataset.theme=dark?'dark':'light';
+ themeToggle.setAttribute('aria-label',`Ativar tema ${dark?'claro':'escuro'}`);
+ themeToggle.querySelector('.theme-icon').textContent=dark?'☀':'☾';
+ themeToggle.querySelector('.theme-name').textContent=`Tema ${dark?'claro':'escuro'}`;
+ themeMeta?.setAttribute('content',dark?'#0b110e':'#f2f0e8');
+ if(persist){savedTheme=dark?'dark':'light';try{localStorage.setItem('felvieira-theme',savedTheme)}catch{}}
+};
+setTheme(savedTheme||document.documentElement.dataset.theme||(systemTheme.matches?'dark':'light'));
+themeToggle.addEventListener('click',()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark',true));
+if(!savedTheme)systemTheme.addEventListener('change',event=>{if(!savedTheme)setTheme(event.matches?'dark':'light')});
+
 const PRODUCTS=[
  ['memra','Memra','memrabiblia.org','https://memrabiblia.org/','Leitura e estudo da Bíblia com contexto e IA.'],
  ['cadeodinheiro','Cadê o Dinheiro','cadeodinheiro.online','https://www.cadeodinheiro.online/','Finanças pessoais e orçamento da casa com IA.'],

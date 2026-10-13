@@ -1,9 +1,16 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f2f0e8">
 <title>Felipe Vieira — Senior Frontend Dev & IA</title>
 <meta name="description" content="Felipe Vieira: Senior Frontend Developer, designer e engenheiro de produtos com IA. SaaS, blog, vídeos e agenda.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css"></head><body><div class="grid-bg"></div>
-<main class="bento">
+<script>try{const saved=localStorage.getItem('felvieira-theme');document.documentElement.dataset.theme=saved==='light'||saved==='dark'?saved:(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch{document.documentElement.dataset.theme='light'}</script>
+<link rel="stylesheet" href="style.css"></head><body><a class="skip-link" href="#conteudo">Pular para o conteúdo</a><div class="grid-bg" aria-hidden="true"></div>
+<main class="bento" id="conteudo">
+  <div class="theme-control">
+    <span class="mono">Tema</span>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Ativar tema escuro">
+      <span class="theme-icon" aria-hidden="true">☾</span><span class="theme-name">Tema escuro</span>
+    </button>
+  </div>
   <section class="tile hero">
     <p class="tag mono">&lt;fel.tech /&gt;</p>
     <h1>Felipe <span class="acc">Vieira</span></h1>
@@ -18,21 +25,23 @@
       <a href="https://blog.felvieira.com.br/">Blog WordPress <i>↗</i></a><a href="https://www.felvieira.com.br">Site <i>↗</i></a>
     </nav>
   </section>
-  <section class="tile cal" id="agenda">
-    <div class="cal-head"><h2>Agende um papo <span class="acc">☕</span></h2><a class="btn" href="https://tidycal.com/felvieiradev" target="_blank" rel="noopener">Abrir agenda ↗</a></div>
-    <p class="muted">Consultoria, projeto, parceria ou só trocar ideia sobre frontend e IA. Escolhe um horário aí.</p>
-    <div class="tidycal-embed" data-path="felvieiradev"></div>
+  <section class="tile cal" id="agenda" aria-labelledby="agenda-titulo">
+    <div class="cal-head">
+      <div><p class="mono label">// consultoria e treinamento</p><h2 id="agenda-titulo">Vamos tirar sua ideia do papel? <span class="acc">☕</span></h2></div>
+      <a class="btn cal-cta" href="#booking-options">Escolha seu atendimento <span aria-hidden="true">↓</span></a>
+    </div>
+    <p class="muted cal-intro">Escolha o formato que combina com seu momento e agende direto pelo TidyCal.</p>
+    <div class="booking-grid" id="booking-options" aria-label="Tipos de agendamento"></div>
   </section>
-  <h2 class="sec"><span class="mono acc">01.</span> Produtos</h2>
-  <div class="products" id="products"></div>
-  <h2 class="sec"><span class="mono acc">02.</span> Últimos posts do blog <a href="https://felvieira.github.io/blog/">ver todos ↗</a></h2>
-  <div class="posts" id="posts"></div>
-  <h2 class="sec"><span class="mono acc">03.</span> Últimos vídeos <a href="https://www.youtube.com/channel/UClX8duF1EEuwHImhTigFHEA">canal ↗</a></h2>
-  <div class="videos" id="videos"></div>
-  <h2 class="sec"><span class="mono acc">04.</span> Instagram</h2>
-  <section class="tile insta" id="insta"><div><p class="mono label">// instagram</p><h3>@felvieira.dev</h3><p class="muted">Bastidores, IA, dev e os produtos que eu tô construindo.</p></div><a class="btn ig" href="https://www.instagram.com/felvieira.dev/" target="_blank" rel="noopener">Seguir no Instagram ↗</a></section>
+  <h2 class="sec" id="produtos-titulo"><span class="mono acc">01.</span> Produtos</h2>
+  <div class="products" id="products" aria-labelledby="produtos-titulo"></div>
+  <h2 class="sec" id="posts-titulo"><span class="mono acc">02.</span> Últimos posts do blog <a href="https://felvieira.github.io/blog/">ver todos ↗</a></h2>
+  <div class="posts" id="posts" aria-labelledby="posts-titulo"></div>
+  <h2 class="sec" id="videos-titulo"><span class="mono acc">03.</span> Últimos vídeos <a href="https://www.youtube.com/channel/UClX8duF1EEuwHImhTigFHEA">canal ↗</a></h2>
+  <div class="videos" id="videos" aria-labelledby="videos-titulo"></div>
+  <h2 class="sec" id="instagram-titulo"><span class="mono acc">04.</span> Instagram</h2>
+  <section class="tile insta" id="insta" aria-labelledby="instagram-titulo"><div><p class="mono label">// instagram</p><h3>@felvieira.dev</h3><p class="muted">Bastidores, IA, dev e os produtos que eu tô construindo.</p></div><a class="btn ig" href="https://www.instagram.com/felvieira.dev/" target="_blank" rel="noopener">Seguir no Instagram ↗</a></section>
 </main>
 <footer class="mono muted">© <span id="y"></span> Felipe Vieira · conteúdo atualizado automaticamente via GitHub Actions.</footer>
 <script src="app.js"></script>
-<script src="https://asset-tidycal.b-cdn.net/js/embed.js" async></script>
 </body></html>
