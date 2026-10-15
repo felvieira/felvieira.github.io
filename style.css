@@ -377,6 +377,7 @@ h1 {
   color: var(--media-text);
   transition: transform .22s ease, border-color .22s ease, box-shadow .22s ease;
 }
+.link-card--image-contain > img { object-fit: contain; background: #f4f5ef; }
 .link-card:hover { transform: translateY(-3px); border-color: var(--accent-strong); box-shadow: 0 20px 38px -26px rgba(22, 39, 30, .42); }
 .link-card__body { padding: 13px 15px; border-radius: 15px; transition: background-color .2s ease, border-color .2s ease; }
 .link-card__details { display: flex; flex-direction: column; gap: 7px; }
