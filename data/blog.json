@@ -1,5 +1,12 @@
 [
   {
+    "title": "Testes na era dos agentes de IA: a rede de segurança que virou protagonista",
+    "date": "2026-10-14",
+    "url": "https://felvieira.github.io/blog/posts/2026-10-14-testes-era-agentes-ia-rede-seguranca.html",
+    "cover": null,
+    "excerpt": "Com 90% dos devs usando agentes de IA toda semana, a pergunta deixou de ser 'você usa?' e virou 'como você confia?'. Por que testes automatizados viraram o contrato entre você e a máquina."
+  },
+  {
     "title": "Mais código, mesmo software: o gargalo da revisão na era dos agentes de IA",
     "date": "2026-10-12",
     "url": "https://felvieira.github.io/blog/posts/2026-10-12-agentes-ia-gargalo-revisao-codigo.html",
@@ -33,12 +40,5 @@
     "url": "https://felvieira.github.io/blog/posts/2026-10-01-video-ia-apresentador-9-modelos.html",
     "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-10-01-video-ia-apresentador-cover.webp",
     "excerpt": "Mesma foto, mesma frase em português e 5 segundos na vertical em 9 modelos de vídeo. US$ 9,95 no total, um modelo de US$ 0,50 perto de um de US$ 2,31 e quatro armadilhas de API."
-  },
-  {
-    "title": "O custo real do código de agentes de IA: manter pesa mais que escrever",
-    "date": "2026-10-01",
-    "url": "https://felvieira.github.io/blog/posts/2026-10-01-o-custo-real-do-codigo-de-agentes-ia-2026.html",
-    "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-09-30-o-custo-real-do-codigo-de-agentes-ia-2026-cover.webp",
-    "excerpt": "Gerar código com IA ficou rápido. Entender, revisar e manter o sistema continua exigindo contexto, testes e decisões bem registradas."
   }
 ]
