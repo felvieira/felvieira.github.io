@@ -1,5 +1,12 @@
 [
   {
+    "title": "Observabilidade para agentes de IA: como saber o que o agente realmente fez",
+    "date": "2026-10-16",
+    "url": "https://felvieira.github.io/blog/posts/2026-10-16-observabilidade-agentes-ia-o-que-o-agente-fez.html",
+    "cover": null,
+    "excerpt": "Resultado certo não prova processo certo. Logs, traces de ferramentas e custo por tarefa para você parar de torcer e começar a operar seus agentes."
+  },
+  {
     "title": "Testes na era dos agentes de IA: a rede de segurança que virou protagonista",
     "date": "2026-10-14",
     "url": "https://felvieira.github.io/blog/posts/2026-10-14-testes-era-agentes-ia-rede-seguranca.html",
@@ -33,12 +40,5 @@
     "url": "https://felvieira.github.io/blog/posts/2026-10-05-o-contexto-e-o-novo-codigo-2026.html",
     "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-10-05-o-contexto-e-o-novo-codigo-2026-cover.webp",
     "excerpt": "Trocar de modelo não resolve agente que erra. Contexto sim: a disciplina de dar à IA só o que importa, do jeito que ela entende."
-  },
-  {
-    "title": "Coloquei meu rosto em 9 modelos de vídeo com IA e pedi a mesma frase em português",
-    "date": "2026-10-01",
-    "url": "https://felvieira.github.io/blog/posts/2026-10-01-video-ia-apresentador-9-modelos.html",
-    "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-10-01-video-ia-apresentador-cover.webp",
-    "excerpt": "Mesma foto, mesma frase em português e 5 segundos na vertical em 9 modelos de vídeo. US$ 9,95 no total, um modelo de US$ 0,50 perto de um de US$ 2,31 e quatro armadilhas de API."
   }
 ]
