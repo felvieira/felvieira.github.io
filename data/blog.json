@@ -1,5 +1,12 @@
 [
   {
+    "title": "Agentes de IA com limites: como desenhar autonomia sem perder o controle",
+    "date": "2026-10-21",
+    "url": "https://felvieira.github.io/blog/posts/2026-10-21-agentes-ia-com-limites.html",
+    "cover": null,
+    "excerpt": "Um agente útil não precisa fazer tudo sozinho: limites claros, checkpoints e ferramentas pequenas tornam a autonomia segura e previsível."
+  },
+  {
     "title": "Observabilidade para agentes de IA: como saber o que o agente realmente fez",
     "date": "2026-10-16",
     "url": "https://felvieira.github.io/blog/posts/2026-10-16-observabilidade-agentes-ia-o-que-o-agente-fez.html",
@@ -33,12 +40,5 @@
     "url": "https://felvieira.github.io/blog/posts/2026-10-07-a-especificacao-e-o-novo-codigo-2026.html",
     "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-10-07-a-especificacao-e-o-novo-codigo-2026-cover.webp",
     "excerpt": "Quando os agentes de IA escrevem o código, você escreve o mapa. Especificar antes de codificar é o novo superpoder do frontend."
-  },
-  {
-    "title": "O contexto é o novo código: por que seus agentes de IA erram",
-    "date": "2026-10-05",
-    "url": "https://felvieira.github.io/blog/posts/2026-10-05-o-contexto-e-o-novo-codigo-2026.html",
-    "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-10-05-o-contexto-e-o-novo-codigo-2026-cover.webp",
-    "excerpt": "Trocar de modelo não resolve agente que erra. Contexto sim: a disciplina de dar à IA só o que importa, do jeito que ela entende."
   }
 ]
