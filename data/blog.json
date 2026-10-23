@@ -1,5 +1,12 @@
 [
   {
+    "title": "RAG ficou obsoleto? Nove formas de dar conhecimento a uma IA",
+    "date": "2026-10-23",
+    "url": "https://felvieira.github.io/blog/posts/2026-10-23-rag-obsoleto-alternativas-busca-ia.html",
+    "cover": null,
+    "excerpt": "RAG não ficou obsoleto: ele é uma peça de uma arquitetura maior. Compare nove formas de fornecer conhecimento a uma IA e escolha a combinação mais simples que passa nos seus testes."
+  },
+  {
     "title": "Agentes de IA com limites: como desenhar autonomia sem perder o controle",
     "date": "2026-10-21",
     "url": "https://felvieira.github.io/blog/posts/2026-10-21-agentes-ia-com-limites.html",
@@ -33,12 +40,5 @@
     "url": "https://felvieira.github.io/blog/posts/2026-10-09-skills-vs-mcp-quando-usar-cada-um.html",
     "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-10-09-skills-vs-mcp-quando-usar-cada-um-cover.webp",
     "excerpt": "MCP conecta seu agente ao mundo; Skills ensinam o agente a trabalhar do seu jeito. A diferença prática entre ferramentas e receitas — e quando cada abordagem faz sentido no seu stack."
-  },
-  {
-    "title": "A especificação é o novo código: como guiar agentes de IA no frontend",
-    "date": "2026-10-07",
-    "url": "https://felvieira.github.io/blog/posts/2026-10-07-a-especificacao-e-o-novo-codigo-2026.html",
-    "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-10-07-a-especificacao-e-o-novo-codigo-2026-cover.webp",
-    "excerpt": "Quando os agentes de IA escrevem o código, você escreve o mapa. Especificar antes de codificar é o novo superpoder do frontend."
   }
 ]
