@@ -7,6 +7,13 @@
     "excerpt": "RAG não ficou obsoleto: ele é uma peça de uma arquitetura maior. Compare nove formas de fornecer conhecimento a uma IA e escolha a combinação mais simples que passa nos seus testes."
   },
   {
+    "title": "Interfaces com IA no frontend: o estado também precisa ser desenhado",
+    "date": "2026-10-23",
+    "url": "https://felvieira.github.io/blog/posts/2026-10-23-interfaces-ia-frontend-estado-desenhado.html",
+    "cover": null,
+    "excerpt": "Uma interface com IA não termina no botão de enviar: streaming, espera, erro, interrupção e revisão precisam de estados visíveis. Veja um desenho simples para tornar o produto confiável."
+  },
+  {
     "title": "Agentes de IA com limites: como desenhar autonomia sem perder o controle",
     "date": "2026-10-21",
     "url": "https://felvieira.github.io/blog/posts/2026-10-21-agentes-ia-com-limites.html",
@@ -33,12 +40,5 @@
     "url": "https://felvieira.github.io/blog/posts/2026-10-12-agentes-ia-gargalo-revisao-codigo.html",
     "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-10-12-agentes-ia-gargalo-revisao-codigo-cover.webp",
     "excerpt": "Estudo de Harvard com 300 milhões de eventos mostra: agentes de IA aumentam commits e PRs, mas a revisão humana absorve o ganho. O que muda quando escrever código deixa de ser o limite."
-  },
-  {
-    "title": "Skills vs MCP: quando usar cada um no seu fluxo com agentes de IA",
-    "date": "2026-10-09",
-    "url": "https://felvieira.github.io/blog/posts/2026-10-09-skills-vs-mcp-quando-usar-cada-um.html",
-    "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-10-09-skills-vs-mcp-quando-usar-cada-um-cover.webp",
-    "excerpt": "MCP conecta seu agente ao mundo; Skills ensinam o agente a trabalhar do seu jeito. A diferença prática entre ferramentas e receitas — e quando cada abordagem faz sentido no seu stack."
   }
 ]
