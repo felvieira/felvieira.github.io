@@ -1,5 +1,12 @@
 [
   {
+    "id": "bG_mUaQ764s",
+    "title": "Convertr: skimmer em checkout capturou cartões e CPFs",
+    "published": "2026-10-28",
+    "url": "https://www.youtube.com/watch?v=bG_mUaQ764s",
+    "thumb": "https://i.ytimg.com/vi/bG_mUaQ764s/hqdefault.jpg"
+  },
+  {
     "id": "weaM4iOBp6g",
     "title": "Somai - Seu app de lista de comrpas integrado com IA",
     "published": "2026-10-27",
@@ -47,12 +54,5 @@
     "published": "2026-02-01",
     "url": "https://www.youtube.com/watch?v=Twws8AA8Auc",
     "thumb": "https://i.ytimg.com/vi/Twws8AA8Auc/hqdefault.jpg"
-  },
-  {
-    "id": "-nLSxHX51OA",
-    "title": "Vibe Coding com Cursor (IA) — Curso Grátis | Testando pagamento e definindo supabase keys de pg #24",
-    "published": "2026-01-31",
-    "url": "https://www.youtube.com/watch?v=-nLSxHX51OA",
-    "thumb": "https://i.ytimg.com/vi/-nLSxHX51OA/hqdefault.jpg"
   }
 ]
