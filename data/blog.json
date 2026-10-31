@@ -1,5 +1,12 @@
 [
   {
+    "title": "Evals para agentes de IA: como saber se a mudança melhorou ou piorou",
+    "date": "2026-10-30",
+    "url": "https://felvieira.github.io/blog/posts/2026-10-30-evals-para-agentes-de-ia.html",
+    "cover": null,
+    "excerpt": "Parece melhor não é métrica. Veja como montar um conjunto pequeno de casos reais e rodar a cada mudança no seu agente de IA."
+  },
+  {
     "title": "RAG ficou obsoleto? Nove formas de dar conhecimento a uma IA",
     "date": "2026-10-23",
     "url": "https://felvieira.github.io/blog/posts/2026-10-23-rag-obsoleto-alternativas-busca-ia.html",
@@ -33,12 +40,5 @@
     "url": "https://felvieira.github.io/blog/posts/2026-10-14-testes-era-agentes-ia-rede-seguranca.html",
     "cover": null,
     "excerpt": "Com 90% dos devs usando agentes de IA toda semana, a pergunta deixou de ser 'você usa?' e virou 'como você confia?'. Por que testes automatizados viraram o contrato entre você e a máquina."
-  },
-  {
-    "title": "Mais código, mesmo software: o gargalo da revisão na era dos agentes de IA",
-    "date": "2026-10-12",
-    "url": "https://felvieira.github.io/blog/posts/2026-10-12-agentes-ia-gargalo-revisao-codigo.html",
-    "cover": "https://felvieira.github.io/blog/assets/images/thumbs/2026-10-12-agentes-ia-gargalo-revisao-codigo-cover.webp",
-    "excerpt": "Estudo de Harvard com 300 milhões de eventos mostra: agentes de IA aumentam commits e PRs, mas a revisão humana absorve o ganho. O que muda quando escrever código deixa de ser o limite."
   }
 ]
