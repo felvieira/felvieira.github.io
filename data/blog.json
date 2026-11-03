@@ -1,5 +1,12 @@
 [
   {
+    "title": "Injeção de prompt em agentes de IA: o risco que quase ninguém testa",
+    "date": "2026-11-02",
+    "url": "https://felvieira.github.io/blog/posts/2026-11-02-injecao-de-prompt-em-agentes-de-ia.html",
+    "cover": null,
+    "excerpt": "Quando o agente lê e-mails, páginas e documentos, qualquer texto pode virar ordem. Entenda a injeção de prompt, o trio de risco e defesas práticas que você pode testar."
+  },
+  {
     "title": "Evals para agentes de IA: como saber se a mudança melhorou ou piorou",
     "date": "2026-10-30",
     "url": "https://felvieira.github.io/blog/posts/2026-10-30-evals-para-agentes-de-ia.html",
@@ -33,12 +40,5 @@
     "url": "https://felvieira.github.io/blog/posts/2026-10-16-observabilidade-agentes-ia-o-que-o-agente-fez.html",
     "cover": null,
     "excerpt": "Resultado certo não prova processo certo. Logs, traces de ferramentas e custo por tarefa para você parar de torcer e começar a operar seus agentes."
-  },
-  {
-    "title": "Testes na era dos agentes de IA: a rede de segurança que virou protagonista",
-    "date": "2026-10-14",
-    "url": "https://felvieira.github.io/blog/posts/2026-10-14-testes-era-agentes-ia-rede-seguranca.html",
-    "cover": null,
-    "excerpt": "Com 90% dos devs usando agentes de IA toda semana, a pergunta deixou de ser 'você usa?' e virou 'como você confia?'. Por que testes automatizados viraram o contrato entre você e a máquina."
   }
 ]
