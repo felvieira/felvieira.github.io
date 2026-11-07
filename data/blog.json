@@ -1,5 +1,12 @@
 [
   {
+    "title": "7 ferramentas de IA que entraram no meu radar",
+    "date": "2026-11-04",
+    "url": "https://felvieira.github.io/blog/posts/2026-11-04-7-ferramentas-de-ia-que-entraram-no-meu-radar.html",
+    "cover": null,
+    "excerpt": "Sete ferramentas que cruzaram meu radar: infraestrutura, depuração, engenharia reversa, interfaces, colaboração e coleta de dados para quem constrói com agentes."
+  },
+  {
     "title": "Injeção de prompt em agentes de IA: o risco que quase ninguém testa",
     "date": "2026-11-02",
     "url": "https://felvieira.github.io/blog/posts/2026-11-02-injecao-de-prompt-em-agentes-de-ia.html",
@@ -33,12 +40,5 @@
     "url": "https://felvieira.github.io/blog/posts/2026-10-21-agentes-ia-com-limites.html",
     "cover": null,
     "excerpt": "Um agente útil não precisa fazer tudo sozinho: limites claros, checkpoints e ferramentas pequenas tornam a autonomia segura e previsível."
-  },
-  {
-    "title": "Observabilidade para agentes de IA: como saber o que o agente realmente fez",
-    "date": "2026-10-16",
-    "url": "https://felvieira.github.io/blog/posts/2026-10-16-observabilidade-agentes-ia-o-que-o-agente-fez.html",
-    "cover": null,
-    "excerpt": "Resultado certo não prova processo certo. Logs, traces de ferramentas e custo por tarefa para você parar de torcer e começar a operar seus agentes."
   }
 ]
