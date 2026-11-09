@@ -1,5 +1,12 @@
 [
   {
+    "id": "KrYrGJzBvjE",
+    "title": "Pando: como a OpenAI escalou o Git",
+    "published": "2026-11-09",
+    "url": "https://www.youtube.com/watch?v=KrYrGJzBvjE",
+    "thumb": "https://i.ytimg.com/vi/KrYrGJzBvjE/hqdefault.jpg"
+  },
+  {
     "id": "bG_mUaQ764s",
     "title": "Convertr: skimmer em checkout capturou cartões e CPFs",
     "published": "2026-10-28",
@@ -47,12 +54,5 @@
     "published": "2026-07-20",
     "url": "https://www.youtube.com/watch?v=wLtNKCwLwsk",
     "thumb": "https://i.ytimg.com/vi/wLtNKCwLwsk/hqdefault.jpg"
-  },
-  {
-    "id": "Twws8AA8Auc",
-    "title": "Vibe Coding com Cursor (IA) — Curso Grátis | Debugando e Testando Integracao com Stripe e pgto #25",
-    "published": "2026-02-01",
-    "url": "https://www.youtube.com/watch?v=Twws8AA8Auc",
-    "thumb": "https://i.ytimg.com/vi/Twws8AA8Auc/hqdefault.jpg"
   }
 ]
