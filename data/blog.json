@@ -1,5 +1,12 @@
 [
   {
+    "title": "Memória de agentes de IA: o que lembrar, o que esquecer e quem decide",
+    "date": "2026-11-09",
+    "url": "https://felvieira.github.io/blog/posts/2026-11-09-memoria-de-agentes-de-ia-lembrar-esquecer.html",
+    "cover": null,
+    "excerpt": "Dar mais memória ao agente nem sempre ajuda. Veja o que vale gravar, o que deve ser descartado e por que o humano precisa auditar."
+  },
+  {
     "title": "7 ferramentas de IA que entraram no meu radar",
     "date": "2026-11-04",
     "url": "https://felvieira.github.io/blog/posts/2026-11-04-7-ferramentas-de-ia-que-entraram-no-meu-radar.html",
@@ -33,12 +40,5 @@
     "url": "https://felvieira.github.io/blog/posts/2026-10-23-interfaces-ia-frontend-estado-desenhado.html",
     "cover": null,
     "excerpt": "Uma interface com IA não termina no botão de enviar: streaming, espera, erro, interrupção e revisão precisam de estados visíveis. Veja um desenho simples para tornar o produto confiável."
-  },
-  {
-    "title": "Agentes de IA com limites: como desenhar autonomia sem perder o controle",
-    "date": "2026-10-21",
-    "url": "https://felvieira.github.io/blog/posts/2026-10-21-agentes-ia-com-limites.html",
-    "cover": null,
-    "excerpt": "Um agente útil não precisa fazer tudo sozinho: limites claros, checkpoints e ferramentas pequenas tornam a autonomia segura e previsível."
   }
 ]
