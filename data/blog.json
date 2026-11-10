@@ -1,5 +1,12 @@
 [
   {
+    "title": "Launch Studio: vídeos de produto feitos com código e agentes de IA",
+    "date": "2026-11-10",
+    "url": "https://felvieira.github.io/blog/posts/2026-11-10-launch-studio-videos-produto-codigo-agentes-ia.html",
+    "cover": "https://felvieira.github.io/blog/assets/images/2026-11-10-launch-studio-videos-produto-codigo-agentes-ia-cover.png",
+    "excerpt": "Como o Launch Studio transforma código e dados do produto em animação, com agentes, renderização por tempo e revisão humana."
+  },
+  {
     "title": "Memória de agentes de IA: o que lembrar, o que esquecer e quem decide",
     "date": "2026-11-09",
     "url": "https://felvieira.github.io/blog/posts/2026-11-09-memoria-de-agentes-de-ia-lembrar-esquecer.html",
@@ -33,12 +40,5 @@
     "url": "https://felvieira.github.io/blog/posts/2026-10-23-rag-obsoleto-alternativas-busca-ia.html",
     "cover": null,
     "excerpt": "RAG não ficou obsoleto: ele é uma peça de uma arquitetura maior. Compare nove formas de fornecer conhecimento a uma IA e escolha a combinação mais simples que passa nos seus testes."
-  },
-  {
-    "title": "Interfaces com IA no frontend: o estado também precisa ser desenhado",
-    "date": "2026-10-23",
-    "url": "https://felvieira.github.io/blog/posts/2026-10-23-interfaces-ia-frontend-estado-desenhado.html",
-    "cover": null,
-    "excerpt": "Uma interface com IA não termina no botão de enviar: streaming, espera, erro, interrupção e revisão precisam de estados visíveis. Veja um desenho simples para tornar o produto confiável."
   }
 ]
