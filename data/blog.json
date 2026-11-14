@@ -1,5 +1,12 @@
 [
   {
+    "title": "Agentes de IA com freio de mão: como desenhar aprovações antes da ação",
+    "date": "2026-11-13",
+    "url": "https://felvieira.github.io/blog/posts/2026-11-13-agentes-de-ia-com-freio-de-mao-aprovacoes-antes-da-acao.html",
+    "cover": "https://felvieira.github.io/blog/assets/images/2026-11-13-agentes-de-ia-com-freio-de-mao-aprovacoes-antes-da-acao-cover.png",
+    "excerpt": "Um guia prático para desenhar pontos de aprovação em agentes de IA, equilibrando autonomia, segurança e uma boa experiência no frontend."
+  },
+  {
     "title": "Launch Studio: vídeos de produto feitos com código e agentes de IA",
     "date": "2026-11-10",
     "url": "https://felvieira.github.io/blog/posts/2026-11-10-launch-studio-videos-produto-codigo-agentes-ia.html",
@@ -33,12 +40,5 @@
     "url": "https://felvieira.github.io/blog/posts/2026-10-30-evals-para-agentes-de-ia.html",
     "cover": null,
     "excerpt": "Parece melhor não é métrica. Veja como montar um conjunto pequeno de casos reais e rodar a cada mudança no seu agente de IA."
-  },
-  {
-    "title": "RAG ficou obsoleto? Nove formas de dar conhecimento a uma IA",
-    "date": "2026-10-23",
-    "url": "https://felvieira.github.io/blog/posts/2026-10-23-rag-obsoleto-alternativas-busca-ia.html",
-    "cover": null,
-    "excerpt": "RAG não ficou obsoleto: ele é uma peça de uma arquitetura maior. Compare nove formas de fornecer conhecimento a uma IA e escolha a combinação mais simples que passa nos seus testes."
   }
 ]
