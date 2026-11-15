@@ -1,5 +1,19 @@
 [
   {
+    "id": "sZeNYPR1uIo",
+    "title": "GPT-6.1 Terra: IA que usa o computador",
+    "published": "2026-11-15",
+    "url": "https://www.youtube.com/watch?v=sZeNYPR1uIo",
+    "thumb": "https://i.ytimg.com/vi/sZeNYPR1uIo/hqdefault.jpg"
+  },
+  {
+    "id": "4vpHuXXZYfU",
+    "title": "Digest IA e dev 15/11: Google lança Gemini 4 Hydrogen, modelo mais rápido para trabalho… #Shorts",
+    "published": "2026-11-15",
+    "url": "https://www.youtube.com/watch?v=4vpHuXXZYfU",
+    "thumb": "https://i.ytimg.com/vi/4vpHuXXZYfU/hqdefault.jpg"
+  },
+  {
     "id": "kWUCHf9d_jA",
     "title": "Digest IA e dev 14/11: OpenAI libera carteira para compras feitas por agentes #Shorts",
     "published": "2026-11-14",
@@ -40,19 +54,5 @@
     "published": "2026-11-11",
     "url": "https://www.youtube.com/watch?v=7dsj-nt-ecE",
     "thumb": "https://i.ytimg.com/vi/7dsj-nt-ecE/hqdefault.jpg"
-  },
-  {
-    "id": "QdqA8OT8cZA",
-    "title": "ChatGPT no seu ERP? OpenAI + Oracle explicadas",
-    "published": "2026-11-10",
-    "url": "https://www.youtube.com/watch?v=QdqA8OT8cZA",
-    "thumb": "https://i.ytimg.com/vi/QdqA8OT8cZA/hqdefault.jpg"
-  },
-  {
-    "id": "E9hKJKIbQrw",
-    "title": "Digest IA e dev 10/11: Anthropic lança Claude Fable 5.2 e Mythos 5.2 com preço de US$… #Shorts",
-    "published": "2026-11-10",
-    "url": "https://www.youtube.com/watch?v=E9hKJKIbQrw",
-    "thumb": "https://i.ytimg.com/vi/E9hKJKIbQrw/hqdefault.jpg"
   }
 ]
