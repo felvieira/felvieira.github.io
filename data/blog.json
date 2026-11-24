@@ -1,5 +1,12 @@
 [
   {
+    "title": "Agentes de IA não precisam de mais ferramentas",
+    "date": "2026-11-23",
+    "url": "https://felvieira.github.io/blog/posts/2026-11-23-agentes-ia-contratos-ferramentas-claros.html",
+    "cover": "https://felvieira.github.io/blog/assets/images/2026-11-23-agentes-ia-contratos-ferramentas-claros-cover.png",
+    "excerpt": "Mais integrações não tornam um agente confiável. Contratos claros definem quando uma ferramenta entra, o que recebe, o que devolve e como falha."
+  },
+  {
     "title": "Agentes de IA com freio de mão: como desenhar aprovações antes da ação",
     "date": "2026-11-13",
     "url": "https://felvieira.github.io/blog/posts/2026-11-13-agentes-de-ia-com-freio-de-mao-aprovacoes-antes-da-acao.html",
@@ -33,12 +40,5 @@
     "url": "https://felvieira.github.io/blog/posts/2026-11-02-injecao-de-prompt-em-agentes-de-ia.html",
     "cover": null,
     "excerpt": "Quando o agente lê e-mails, páginas e documentos, qualquer texto pode virar ordem. Entenda a injeção de prompt, o trio de risco e defesas práticas que você pode testar."
-  },
-  {
-    "title": "Evals para agentes de IA: como saber se a mudança melhorou ou piorou",
-    "date": "2026-10-30",
-    "url": "https://felvieira.github.io/blog/posts/2026-10-30-evals-para-agentes-de-ia.html",
-    "cover": null,
-    "excerpt": "Parece melhor não é métrica. Veja como montar um conjunto pequeno de casos reais e rodar a cada mudança no seu agente de IA."
   }
 ]
