@@ -1,5 +1,19 @@
 [
   {
+    "id": "TBPeOr5NLUE",
+    "title": "Onde seu agente gastou tokens? Novidade no Claude Code",
+    "published": "2026-11-26",
+    "url": "https://www.youtube.com/watch?v=TBPeOr5NLUE",
+    "thumb": "https://i.ytimg.com/vi/TBPeOr5NLUE/hqdefault.jpg"
+  },
+  {
+    "id": "iQI0ykh48qc",
+    "title": "Digest IA e dev 26/11: Cloudflare transforma sites em fontes de busca para agentes #Shorts",
+    "published": "2026-11-26",
+    "url": "https://www.youtube.com/watch?v=iQI0ykh48qc",
+    "thumb": "https://i.ytimg.com/vi/iQI0ykh48qc/hqdefault.jpg"
+  },
+  {
     "id": "nqyuMDE-t5A",
     "title": "Copilot: confira segredos antes do merge",
     "published": "2026-11-25",
@@ -40,19 +54,5 @@
     "published": "2026-11-14",
     "url": "https://www.youtube.com/watch?v=kWUCHf9d_jA",
     "thumb": "https://i.ytimg.com/vi/kWUCHf9d_jA/hqdefault.jpg"
-  },
-  {
-    "id": "JJqJM3JbxQo",
-    "title": "Digest IA e dev 13/11: Google lança a Gemini Decisions API para decisões multimodais em… #Shorts",
-    "published": "2026-11-13",
-    "url": "https://www.youtube.com/watch?v=JJqJM3JbxQo",
-    "thumb": "https://i.ytimg.com/vi/JJqJM3JbxQo/hqdefault.jpg"
-  },
-  {
-    "id": "CEStj83M3tk",
-    "title": "Digest IA e dev 12/11: Navegadores lançam orientação moderna para agentes de programação #Shorts",
-    "published": "2026-11-12",
-    "url": "https://www.youtube.com/watch?v=CEStj83M3tk",
-    "thumb": "https://i.ytimg.com/vi/CEStj83M3tk/hqdefault.jpg"
   }
 ]
