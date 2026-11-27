@@ -1,5 +1,12 @@
 [
   {
+    "title": "O orçamento invisível dos agentes de IA: contexto, tempo e risco",
+    "date": "2026-11-27",
+    "url": "https://felvieira.github.io/blog/posts/2026-11-27-orcamento-invisivel-agentes-ia-contexto-tempo-risco.html",
+    "cover": "https://felvieira.github.io/blog/assets/images/2026-11-24-orcamento-invisivel-agentes-ia-contexto-tempo-risco-cover.png",
+    "excerpt": "Agentes de IA não gastam apenas tokens: cada decisão consome contexto, tempo e margem para errar. Veja como tornar esse orçamento visível."
+  },
+  {
     "title": "Agentes de IA não precisam de mais ferramentas",
     "date": "2026-11-23",
     "url": "https://felvieira.github.io/blog/posts/2026-11-23-agentes-ia-contratos-ferramentas-claros.html",
@@ -33,12 +40,5 @@
     "url": "https://felvieira.github.io/blog/posts/2026-11-04-7-ferramentas-de-ia-que-entraram-no-meu-radar.html",
     "cover": null,
     "excerpt": "Sete ferramentas que cruzaram meu radar: infraestrutura, depuração, engenharia reversa, interfaces, colaboração e coleta de dados para quem constrói com agentes."
-  },
-  {
-    "title": "Injeção de prompt em agentes de IA: o risco que quase ninguém testa",
-    "date": "2026-11-02",
-    "url": "https://felvieira.github.io/blog/posts/2026-11-02-injecao-de-prompt-em-agentes-de-ia.html",
-    "cover": null,
-    "excerpt": "Quando o agente lê e-mails, páginas e documentos, qualquer texto pode virar ordem. Entenda a injeção de prompt, o trio de risco e defesas práticas que você pode testar."
   }
 ]
