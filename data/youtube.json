@@ -1,5 +1,12 @@
 [
   {
+    "id": "LhjOMtYQjSs",
+    "title": "Digest IA e dev 27/11: Anthropic reescreve a API Messages em Rust #Shorts",
+    "published": "2026-11-27",
+    "url": "https://www.youtube.com/watch?v=LhjOMtYQjSs",
+    "thumb": "https://i.ytimg.com/vi/LhjOMtYQjSs/hqdefault.jpg"
+  },
+  {
     "id": "TBPeOr5NLUE",
     "title": "Onde seu agente gastou tokens? Novidade no Claude Code",
     "published": "2026-11-26",
@@ -47,12 +54,5 @@
     "published": "2026-11-15",
     "url": "https://www.youtube.com/watch?v=4vpHuXXZYfU",
     "thumb": "https://i.ytimg.com/vi/4vpHuXXZYfU/hqdefault.jpg"
-  },
-  {
-    "id": "kWUCHf9d_jA",
-    "title": "Digest IA e dev 14/11: OpenAI libera carteira para compras feitas por agentes #Shorts",
-    "published": "2026-11-14",
-    "url": "https://www.youtube.com/watch?v=kWUCHf9d_jA",
-    "thumb": "https://i.ytimg.com/vi/kWUCHf9d_jA/hqdefault.jpg"
   }
 ]
